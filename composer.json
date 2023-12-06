@@ -1,0 +1,29 @@
+{
+  "name": "BaxtiyorBohodirov/calc-methods",
+  "description": "Arifmetik methods for create calculator",
+  "type": "library",
+  "require": {
+    "php": ">=8.1.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "BaxtiyorBohodirov",
+      "email": "bohodirovbaxtiyor19@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+
+  "autoload": {
+    "psr-4": {
+      "CalcMethods\\": "src/CalcMethods/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "CalcMethods\\CalcMethodsServiceProvider"
+      ]
+    }
+  }
+}
